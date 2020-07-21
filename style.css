@@ -1,0 +1,147 @@
+body{
+	background-image: url(img/coin_cahier.png), url(img/quadrillage.png);
+	background-position: left center;
+	background-size: auto, auto;
+	background-repeat: no-repeat, repeat;
+	
+}
+
+footer{
+	position: fixed;
+	bottom: 0; right: 0px;
+
+	padding: 10px;
+	background-color: white;
+}
+
+a{
+	-moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+input{
+	text-align: center;
+}
+
+img#titre{
+
+	width: 50%;
+}
+
+img#pendu{
+
+	width: auto;
+	height: 25%;
+}
+
+#secret{
+
+	visibility: hidden;
+}
+
+#countdowntimer{
+	position: absolute;
+	right: 0;
+}
+
+#center{
+	text-align: center;
+}
+
+#box-pseudo{
+	background-color: white;
+
+	width: 35%;
+	text-align: center;
+
+	padding: 15px;
+
+	border: 2px black solid;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#box-rules{
+	position: absolute;
+	top: 15%;
+
+	background-color: white;
+
+	width: 50%;
+	text-align: center;
+
+	padding: 15px;
+
+	border: 2px black solid;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#box-alphabet{
+	position: absolute;
+	bottom: 0;
+
+	background-color: white;
+
+	font-size: 25px;
+	text-align: center;
+
+	padding: 15px;
+
+	border: 2px black solid;
+	border-radius: 2px;
+
+	-webkit-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.lettre{
+	margin: 5px;
+	padding: 5px;
+
+	border: 2px black solid;
+	border-radius: 2px;
+}
+
+#word{
+	position: absolute;
+	bottom: 30%;
+
+	background-color: white;
+
+	font-size: 50px;
+	text-align: center;
+
+	padding: 15px;
+}
+
+#end_form{
+	float: right;
+}
+
+#center{
+	text-align: center;
+}
+
+.container{
+	margin-top: 15px;
+}
+
+#classement:hover{
+
+	border: 2px #007bff solid;
+
+	transition: 0.1s;
+}
