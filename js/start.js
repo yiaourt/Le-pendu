@@ -31,7 +31,7 @@ $(function(){
 			  $.getScript('js/game.js');
 			}, 1000)
 
-		}, uneseconde);
+		}, uneseconde); 
 
 
 	});
