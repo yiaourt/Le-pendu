@@ -249,4 +249,4 @@ function winImg(){
 		// On met une image de victoire
 		$('#pendu').attr('src', '/img/gif/thumb.gif');
 	}
-}
+} 
