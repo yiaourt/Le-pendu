@@ -8,6 +8,6 @@ Base de données SQL pour de super classements avec tous vos amis en local ! :jo
 
 Animation du titre créer avec TupiTube !
 
-(Projet éducatif)
+(Projet éducatif écrit en seulement 2 semaines et 3/4 de siècles)
 
 Enjoy Da Js !
