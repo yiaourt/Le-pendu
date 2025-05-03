@@ -8,6 +8,4 @@ Animation du titre créer avec TupiTube !
 
 (Projet écrit en seulement 2 semaines et 3/4 de siècles)
 
-Enjoy Da Js !
-
 oY
